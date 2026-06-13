@@ -30,7 +30,7 @@ degree      : B.Tech Computer Science & Engineering — 3rd Year
 focus       : DSA (C++) · Full Stack · ML/AI Research
 building    : AntiFoul-AI — ML + Marine Antifouling for Underwater Robotics
 grinding    : Amazon SDE Internship prep via LeetCode
-designing   : Official Merchandise — DevSoc, IIT Bombay
+designing   : Official Merchandise — DebSoc, IIT Bombay
 hackathons  : Top 20 / 524 — Indo-Israeli Hackathon 2025
 ```
 
@@ -128,7 +128,7 @@ hackathons  : Top 20 / 524 — Indo-Israeli Hackathon 2025
 
 ```
 🏆  Top 20 / 524 teams  —  Indo-Israeli Hackathon 2025
-🎨  Official Merchandise Designer  —  DevSoc, IIT Bombay
+🎨  Official Merchandise Designer  —  DebSoc, IIT Bombay
 ```
 
 ---
