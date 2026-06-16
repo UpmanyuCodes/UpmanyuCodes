@@ -13,7 +13,6 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Upmanyu_30)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/upmanyu-singh30)
-[![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@UpmanyuSingh)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:upmanyu.work@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=UpmanyuCodes&style=flat-square&color=58A6FF&label=PROFILE+VIEWS)](https://github.com/UpmanyuCodes)
 
