@@ -25,7 +25,7 @@ const upmanyu = {
   location  : "Noida, India",
   education : "B.Tech CSE @ JIIT Noida (3rd year)",
   focus     : ["DSA in C++", "Full Stack", "ML / AI Research"],
-  club      : "CICR (robotics club), software team",
+  club      : "Neural Nexus (AIML Club), CICR (robotics club), software team",
   design    : "Official merchandise for DebSoc, IIT Bombay",
   goal      : "SDE / ML internship",
 };
