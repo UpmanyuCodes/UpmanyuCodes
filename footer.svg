@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-label="First, solve the problem. Then, write the code.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.6" stop-color="#071a3a"/>
+      <stop offset="1" stop-color="#0B3D91"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect width="900" height="120" rx="16"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .w1 { animation: drift 9s linear infinite; }
+    .w2 { animation: drift 14s linear infinite reverse; }
+    @keyframes drift { to { transform: translateX(-300px); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="900" height="120" fill="url(#bg)"/>
+    <path class="w2" fill="#1F6FEB" opacity="0.2"
+          d="M0 92 q75 -22 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V120 H0Z"/>
+    <path class="w1" fill="#58A6FF" opacity="0.16"
+          d="M0 102 q75 -16 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V120 H0Z"/>
+    <text x="450" y="44" text-anchor="middle" font-size="13" class="mono" fill="#8B949E"><tspan fill="#58A6FF">$</tspan> echo $MOTTO</text>
+    <text x="450" y="72" text-anchor="middle" font-size="17" class="mono" fill="#E6EDF3">"First, solve the problem. Then, write the code." <tspan class="cursor" fill="#58A6FF">█</tspan></text>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="119" rx="16" fill="none" stroke="#30363D"/>
+</svg>

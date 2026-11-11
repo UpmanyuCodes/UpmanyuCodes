@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Upmanyu Singh — Full Stack, ML/AI, Design">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.6" stop-color="#071a3a"/>
+      <stop offset="1" stop-color="#0B3D91"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E6EDF3"/>
+      <stop offset="0.55" stop-color="#9CCBFF"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0.35"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#58A6FF" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <clipPath id="card">
+      <rect width="900" height="360" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .dim  { fill: #8B949E; }
+    .txt  { fill: #C9D1D9; }
+    .acc  { fill: #58A6FF; }
+
+    .in { opacity: 0; animation: rise 0.6s ease-out forwards; }
+    .d1 { animation-delay: 0.2s; }
+    .d2 { animation-delay: 0.7s; }
+    .d3 { animation-delay: 1.2s; }
+    .d4 { animation-delay: 1.9s; }
+    .d5 { animation-delay: 2.4s; }
+    .d6 { animation-delay: 2.8s; }
+    .d7 { animation-delay: 3.2s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .spin { animation: spin 4s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .blip { opacity: 0; animation: blip 4s ease-out infinite; }
+    .b2 { animation-delay: 1.3s; }
+    .b3 { animation-delay: 2.6s; }
+    @keyframes blip { 0% { opacity: 0; } 5% { opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
+
+    .ping { animation: ping 4s ease-out infinite; }
+    @keyframes ping { 0% { r: 4px; opacity: 0.7; } 100% { r: 100px; opacity: 0; } }
+
+    .w1 { animation: drift 9s linear infinite; }
+    .w2 { animation: drift 14s linear infinite reverse; }
+    @keyframes drift { to { transform: translateX(-300px); } }
+
+    .glow { animation: float 12s ease-in-out infinite alternate; }
+    @keyframes float { to { transform: translate(60px, 30px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .in, .blip { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="360" fill="url(#bg)"/>
+    <circle class="glow" cx="700" cy="60" r="120" fill="#1F6FEB" opacity="0.35" filter="url(#blur)"/>
+    <circle class="glow" cx="120" cy="330" r="90" fill="#58A6FF" opacity="0.15" filter="url(#blur)"/>
+    <rect width="900" height="360" fill="url(#grid)"/>
+
+    <!-- ocean waves -->
+    <path class="w2" fill="#1F6FEB" opacity="0.18"
+          d="M0 330 q75 -22 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V360 H0Z"/>
+    <path class="w1" fill="#58A6FF" opacity="0.14"
+          d="M0 340 q75 -16 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V360 H0Z"/>
+
+    <!-- window bar -->
+    <rect width="900" height="36" fill="#0D1117" opacity="0.75"/>
+    <circle cx="24" cy="18" r="6" fill="#FF5F57"/>
+    <circle cx="44" cy="18" r="6" fill="#FEBC2E"/>
+    <circle cx="64" cy="18" r="6" fill="#28C840"/>
+    <text x="450" y="22" text-anchor="middle" font-size="12" class="mono dim">upmanyu@github: ~</text>
+
+    <!-- terminal text -->
+    <text x="48" y="84" font-size="15" class="mono in d1"><tspan class="acc">$</tspan><tspan class="dim"> whoami</tspan></text>
+
+    <text x="46" y="150" font-size="60" font-weight="800" letter-spacing="2" fill="url(#name)" class="sans in d2">UPMANYU SINGH</text>
+
+    <text x="48" y="184" font-size="18" class="sans in d3" fill="#9FB3C8" letter-spacing="1">Full Stack  ·  ML / AI  ·  Design</text>
+
+    <text x="48" y="232" font-size="15" class="mono in d4"><tspan class="acc">$</tspan><tspan class="dim"> cat status.txt</tspan></text>
+    <text x="48" y="258" font-size="15" class="mono txt in d5"><tspan class="acc">→</tspan> B.Tech CSE @ JIIT Noida</text>
+    <text x="48" y="282" font-size="15" class="mono txt in d6"><tspan class="acc">→</tspan> Top 20 / 524 · Indo-Israeli Hackathon 2025</text>
+    <text x="48" y="306" font-size="15" class="mono txt in d7"><tspan class="acc">→</tspan> shipping code <tspan fill="#3FB950">✓</tspan> <tspan class="acc cursor">█</tspan></text>
+
+    <!-- sonar -->
+    <g transform="translate(740 176)">
+      <circle r="100" fill="#020617" opacity="0.35"/>
+      <circle r="100" fill="none" stroke="#58A6FF" stroke-opacity="0.35"/>
+      <circle r="66" fill="none" stroke="#58A6FF" stroke-opacity="0.22"/>
+      <circle r="33" fill="none" stroke="#58A6FF" stroke-opacity="0.22"/>
+      <path d="M-100 0H100M0 -100V100" stroke="#58A6FF" stroke-opacity="0.15"/>
+      <circle class="ping" r="4" fill="none" stroke="#58A6FF"/>
+      <g class="spin">
+        <path d="M0 0 L100 0 A100 100 0 0 0 76.6 -64.3 Z" fill="url(#sweep)"/>
+        <path d="M0 0H100" stroke="#58A6FF" stroke-width="1.5"/>
+      </g>
+      <circle class="blip" cx="52" cy="-38" r="4" fill="#58A6FF"/>
+      <circle class="blip b2" cx="-44" cy="30" r="3.5" fill="#9CCBFF"/>
+      <circle class="blip b3" cx="20" cy="62" r="3" fill="#58A6FF"/>
+      <circle r="3" fill="#E6EDF3"/>
+      <text y="124" text-anchor="middle" font-size="10" letter-spacing="2" class="mono dim">SONAR · ACTIVE</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="359" rx="16" fill="none" stroke="#30363D"/>
+</svg>
